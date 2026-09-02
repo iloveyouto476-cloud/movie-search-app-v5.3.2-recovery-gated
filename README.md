@@ -1,0 +1,1 @@
+bash run_movieapp_full_recover.sh
