@@ -1,0 +1,11 @@
+{
+  "name": "movie-search-app-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "ci-frontend": "npm --prefix movieapp/frontend ci",
+    "install-frontend": "npm --prefix movieapp/frontend install",
+    "build": "npm --prefix movieapp/frontend ci && npm --prefix movieapp/frontend run build",
+    "start": "npm --prefix movieapp/frontend run start"
+  }
+}
